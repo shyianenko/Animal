@@ -1,4 +1,4 @@
-package OOP_4.Animal;
+package hw4Animal;
 
 public class Dogg extends AnimalT {
     public Dogg(){}
@@ -18,12 +18,14 @@ public class Dogg extends AnimalT {
     }
 
     @Override
-    public int repeat() {
-        return 1;
+    public void repeat(int value) {
+        for (int i = 1; i <= value; i++) {
+            System.out.println(getVoice());
+        }
     }
 
-
-
-
-
+    @Override
+    public String toString() {
+        return super.toString() + " " + "This animal is Dog ";
+    }
 }
