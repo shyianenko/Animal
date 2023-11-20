@@ -1,4 +1,4 @@
-package OOP_4.Animal;
+package hw4Animal;
 
 public class MainAnimalT {
     public static void main(String[] args) {
